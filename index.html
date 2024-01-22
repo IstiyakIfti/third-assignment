@@ -21,13 +21,88 @@
 </head>
 
 <body class="font-manrope">
-    <header>
-
+    <header class=" md:container md:mx-auto">
+        <!-- slider or carousal -->
+        <div class="carousel w-full lg:h-[550px]">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/3.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-
+    <main class="md:container md:mx-auto ">
+        <section class="my-24">
+            <!-- Professional Hockeys Club design-->
+            <div class="space-y-8">
+                <h3 class="text-[#131318] text-center text-4xl font-extrabold">Professional Hockeys Club</h3>
+                <p class="text-[#13131899] text-center font-medium mx-auto lg:max-w-xl">A distinguished professional
+                    hockey club, exemplifying excellence, teamwork, and a passion for the sport's mastery.</p>
+            </div>
+            <!-- radial progress styles -->
+            <div class="grid my-24 gap-y-8 mx:gap-x-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <!-- Prayer Facility -->
+                <div class="text-center ">
+                    <div class="  radial-progress  text-[#FF4240]" style="--value:87; --size:7.5rem;"
+                        role="progressbar">
+                        <span class="text-[#131318] text-3xl font-extrabold ">87%</span>
+                    </div>
+                    <div class="space-y-6">
+                        <h3 class="text-[#131318] mt-6 text-xl font-semibold ">Prayer Facility</h3>
+                        <p class="mx-auto lg:w-64 text-[#13131899] font-normal">Prayer Facility provides a dedicated
+                            space for individuals.</p>
+                    </div>
+                </div>
+                <!-- Experienced Coach -->
+                <div class="text-center">
+                    <div class="  radial-progress  text-[#49D293]" style="--value:95; --size:7.5rem;"
+                        role="progressbar">
+                        <span class="text-[#131318] text-3xl font-extrabold ">95%</span>
+                    </div>
+                    <div class="space-y-6">
+                        <h3 class="text-[#131318] mt-6 text-xl font-semibold ">Experienced Coach</h3>
+                        <p class="mx-auto lg:w-64 text-[#13131899] font-normal">Seasoned coach: Guiding success through
+                            expertise and motivation.</p>
+                    </div>
+                </div>
+                <!-- Senior Player -->
+                <div class="text-center">
+                    <div class="  radial-progress  text-[#FFB546]" style="--value:90; --size:7.5rem;"
+                        role="progressbar">
+                        <span class="text-[#131318] text-3xl font-extrabold ">90%</span>
+                    </div>
+                    <div class="space-y-6">
+                        <h3 class="text-[#131318] mt-6  text-xl font-semibold ">Senior Player</h3>
+                        <p class="mx-auto lg:w-64 text-[#13131899] font-normal">Veteran player: A wealth of skill and
+                            leadership.</p>
+                    </div>
+                </div>
+                <!-- Training Ground -->
+                <div class="text-center ">
+                    <div class="  radial-progress  text-[#4C8DF1]" style="--value:80; --size:7.5rem;"
+                        role="progressbar">
+                        <span class="text-[#131318] text-3xl font-extrabold ">80%</span>
+                    </div>
+                    <div class="space-y-6">
+                        <h3 class="text-[#131318] mt-6  text-xl font-semibold ">Training Ground</h3>
+                        <p class="mx-auto lg:w-64 text-[#13131899] font-normal">Crucial arena where skills are honed and
+                            nurtured.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
+
 
     </footer>
 </body>
