@@ -45,7 +45,8 @@
                         <li><a class="text-[#424247] font-normal">Contact</a></li>
                     </ul>
                 </div>
-                <a class="text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240] text-4xl font-extrabold">’</span>s</a>
+                <a class="text-4xl font-extrabold text-[#131318]">Hockey<span
+                        class="text-[#FF4240] text-4xl font-extrabold">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -58,7 +59,7 @@
                 </ul>
             </div>
             <div class="navbar-end space-x-1 lg:space-x-4">
-                <i class="fa-solid fa-magnifying-glass"></i> 
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <a class="btn bg-[#FF4240] text-[#fff] py-4 px-6">Get Ticket</a>
             </div>
         </div>
@@ -79,6 +80,7 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
+            
         </div>
     </header>
     <main class="md:container md:mx-auto ">
@@ -148,7 +150,47 @@
                 <p class="text-[#13131899] text-center font-medium mx-auto lg:max-w-xl">Distinct segments in the
                     program, each tailored for specific goals, creating a cohesive learning experience.</p>
             </div>
-            <div>
+            <!-- parent div -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:m-4 mt-12 lg:mt-24 ">
+                <!-- first div -->
+                <div class="card  bg-[url(./Images/2.png)] w-full bg-no-repeat rounded-2xl lg:mt-24">
+                    <div class="card-body">
+                        <h2 class="card-title text-[#FFF] text-3xl font-extrabold">Junior Program</h2>
+                        <p class="text-justify text-[#FFF] font-medium">Junior Program nurtures young talent, providing
+                            educational and skill-building opportunities, fostering growth in a supportive learning
+                            environment.</p>
+                        <div class="card-actions ">
+                            <button class="btn bg-[#FF4240] text-[#FFF] border-2 border-[#FF4240] font-bold">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- second div -->
+                <div class="card  bg-[url(./Images/3.png)] w-full bg-no-repeat rounded-2xl lg:mt-24">
+                    <div class="card-body">
+                        <h2 class="card-title text-[#FFF] text-3xl font-extrabold">Teenager Program</h2>
+                        <p class="text-justify text-[#FFF] font-medium">Teenager Program empowers youth through tailored
+                            education, skill development, and mentorship, fostering confidence and preparing for future
+                            success.</p>
+                        <div class="card-actions">
+                            <button class="btn bg-[#FF4240] text-[#FFF] border-2 border-[#FF4240] font-bold">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- third div -->
+                <div class="card card-side  lg:col-span-2 bg-[url(./Images/4.png)] bg-no-repeat lg:">
+                    <div class="card-body">
+                        <h2 class="card-title text-[#FFF] text-3xl font-extrabold lg:mt-48">Professional Program</h2>
+                        <p class="text-justify text-[#FFF] font-medium lg:w-1/2">Professional Program offers advanced
+                            training, industry insights, and networking opportunities, equipping individuals for career
+                            excellence and leadership in their fields.</p>
+                        <div class="card-actions">
+                            <button class="btn bg-[#FF4240] text-[#FFF] border-2 border-[#FF4240] font-bold">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -156,11 +198,11 @@
         <section class="my-24">
             <div class="space-y-8">
                 <h3 class="text-[#131318] text-center text-4xl font-extrabold">Our New Products</h3>
-                <p class="text-[#13131899] text-center font-medium mx-auto lg:max-w-xl ">Distinct segments in the
+                <p class="text-[#13131899] text-center font-medium mx-auto lg:max-w-xl p-2">Distinct segments in the
                     program, each tailored for specific goals, creating a cohesive learning experience.</p>
             </div>
             <!-- card main div -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 mt-24">
+            <div class="grid grid-cols-1 lg:grid-cols-2 mt-12 lg:mt-24">
                 <!-- card one -->
                 <div class="hero  ">
                     <div class="hero-content flex-col lg:flex-row">
@@ -414,7 +456,7 @@
             </div>
             <!-- cart main div end -->
             <!-- Clients Question styles -->
-            <section class="my-24">
+            <section class="my-12 lg:my-24">
                 <div class="space-y-8">
                     <h3 class="text-[#131318] text-center text-4xl font-extrabold">Clients Question</h3>
                     <p class="text-[#13131899] text-center font-medium mx-auto lg:max-w-xl">Clients question drives
@@ -503,7 +545,7 @@
                 </div>
             </section>
             <!-- Get In Touch -->
-            <section class="my-24">
+            <section class=" my-12 lg:my-24">
                 <div class="space-y-8">
                     <h3 class="text-[#131318] text-center text-4xl font-extrabold">Get In Touch</h3>
                     <p class="text-[#13131899] text-center font-medium mx-auto lg:max-w-xl">Clients question drives
@@ -534,8 +576,8 @@
                                 <p class="text-[#131318] text-lg font-extrabold">152/1 Mohakhali Wireless Gate</p>
                             </div>
                         </div>
+                        <!-- right side style -->
                         <div class="lg:gap-x-6 grid lg:grid-cols-2 ">
-
                             <div>
                                 <p class="text-[#131318] text-xl  font-bold">Your Name</p>
                                 <input type="text" placeholder="Enter your full name"
@@ -562,46 +604,62 @@
                                     class="input bg-[#EEEEEE] w-full max-w-xs lg:max-w-full lg:h-[500px] my-3" />
                             </div>
                             <div class="lg:col-span-2 text-center">
-                                <button class="btn btn-primary w-[250px] lg:w-[500px] mt-3">Get Started</button>
+                                <button class="btn bg-[#FF4240] border-[#FF4240] rounded-s-xl w-[250px] lg:w-[500px] mt-3 text-[#FFF] font-bold text-xl">Get Started</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- bottom side styles -->
+                <div class="card card-side  bg-[#EEEEEE] rounded-s-xl lg:mt-12">
+                    <div class="card-body">
+                        <h2 class="card-title justify-center text-[#131318] font-extrabold text-2xl">Social Media</h2>
+                        <div class="flex space-x-6 justify-center">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+
+                </div>
             </section>
     </main>
-    <footer class="footer p-10 bg-base-200 text-base-content">
+    <footer class="footer p-10 bg-[#131318] text-base-content ">
         <aside>
-            <p>Get In Touch</p>
-            <p class="lg:w-[346px]">Connect with us today. Reach out for inquiries, assistance, or collaborations. Let's
+            <p class="text-3xl font-extrabold text-[#FFF]">Get In Touch</p>
+            <p class="lg:w-[346px] font-medium text-[#FBFBFB]">Connect with us today. Reach out for inquiries, assistance, or collaborations. Let's
                 communicate effectively.</p>
-            <a class="link link-hover"><i class="fa-regular fa-envelope text-[#FF4240]"></i> hockeys@support.com</a>
-            <a class="link link-hover"><i class="fa-solid fa-phone text-[#FF4240] "></i> (+62) 123-321-543</a>
+            <a class="link link-hover font-medium text-[#FBFBFB]"><i class="fa-regular fa-envelope text-[#FF4240]"></i> hockeys@support.com</a>
+            <a class="link link-hover font-medium text-[#FBFBFB]"><i class="fa-solid fa-phone text-[#FF4240] "></i> (+62) 123-321-543</a>
         </aside>
-        <div class="grid grid-cols-2">
-            <nav>
-                <header class="footer-title">Company</header>
-                <a class="link link-hover">About us</a>
-                <a class="link link-hover">Leadership</a>
-                <a class="link link-hover">Careers</a>
-                <a class="link link-hover">News and Article</a>
-                <a class="link link-hover">Legal Notification</a>
+            
+            <nav class="">
+                <header class="footer-title font-bold text-[#FFF] text-lg">Company</header>
+                <a class="link link-hover font-medium text-[#FBFBFB]">About us</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Leadership</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Careers</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">News and Article</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Legal Notification</a>
             </nav>
-            <nav>
-                <header class="footer-title">Support</header>
-                <a class="link link-hover">Help Center</a>
-                <a class="link link-hover">FAQ</a>
-                <a class="link link-hover">Ticket Support</a>
-                <a class="link link-hover">Contacts Us</a>
+            <nav class="">
+                <header class="footer-title font-bold text-[#FFF] text-lg">Support</header>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Help Center</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">FAQ</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Ticket Support</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Contacts Us</a>
             </nav>
-        </div>
+        
         <nav>
-            <header class="footer-title">Services</header>
-            <a class="link link-hover">Academy</a>
-            <a class="link link-hover">Group Lesson/a>
-                <a class="link link-hover">Hockey For Children</a>
-                <a class="link link-hover">Hockey For Adult</a>
+            <header class="footer-title font-bold text-[#FFF] text-lg">Services</header>
+            <a class="link link-hover font-medium text-[#FBFBFB]">Academy</a>
+            <a class="link link-hover font-medium text-[#FBFBFB]">Group Lesson/a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Hockey For Children</a>
+                <a class="link link-hover font-medium text-[#FBFBFB]">Hockey For Adult</a>
         </nav>
     </footer>
+
+    
+
 
 </body>
 
